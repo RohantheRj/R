@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prajwal Bhusal Blog</title>
+</head>
+<body>
+
+<h1>Prajwal Bhusal Blog</h1>
+<p>Welcome to my personal blog page</p>
+
+<hr>
+
+<h2>Latest Post</h2>
+<p>April 8, 2026</p>
+<p>This blog shares my learning journey and daily thoughts.</p>
+<a href="#">Read more</a>
+
+<hr>
+
+<h2>Previous Post</h2>
+<p>April 7, 2026</p>
+<p>Writing helps me improve my thinking and creativity.</p>
+<a href="#">Read more</a>
+
+<hr>
+
+<h3>Topics</h3>
+<ul>
+    <li>Programming</li>
+    <li>Self Improvement</li>
+    <li>Technology</li>
+</ul>
+
+<hr>
+
+<h3>About Me</h3>
+<p>My name is Prajwal Bhusal. I am learning web development and coding. I focus on building skills, staying consistent, and improving every day.</p>
+
+<hr>
+
+<h3>Contact Me</h3>
+<form>
+    Name:<br>
+    <input type="text"><br><br>
+    Message:<br>
+    <textarea></textarea><br><br>
+    <input type="submit" value="Send">
+</form>
+
+<hr>
+
+<p>© 2026 Prajwal Bhusal</p>
+
+</body>
+</html>
