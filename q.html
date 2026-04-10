@@ -1,96 +1,141 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Social Network</title>
-</head>
-<body>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-<h1>Social Network</h1>
+#container {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    background-color: gray;
+}
 
-<hr>
+#header {
+    width: 100%;
+    height: 120px;
+    background-color: gray;
+    border: 1px solid black;
+    font-family: serif;
+    display: flex;
+    align-items: center;
+}
 
-<h2>Navbar</h2>
-<a href="#">Logo</a> |
-<a href="#">Home</a> |
-<a href="#">Profile</a> |
-<a href="#">Friends</a> |
-<a href="#">Messages</a> |
-<a href="#">Notifications</a>
-<br><br>
-<input type="text" placeholder="Search">
-<button>Logout</button>
+#header1 img {
+    height: 80px;
+    width: 150px;
+}
 
-<hr>
+#header1, #header2, #header3 {
+    flex: 1;
+    padding: 10px;
+}
 
-<h2>Home Page</h2>
+#header2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    background: linear-gradient(to left top, black, blue, black);
+}
 
-<h3>Banner</h3>
-<p>Featured posts or announcements</p>
+.test {
+    font-size: 14px;
+}
 
-<h3>User Feed</h3>
-<p>Post from user: Hello this is my first post</p>
-<button>Like</button>
-<button>Comment</button>
-<button>Share</button>
+#header3 {
+    text-align: right;
+}
 
-<br><br>
+#menu {
+    width: 100%;
+}
 
-<textarea placeholder="Create new post"></textarea>
-<br>
-<button>Post</button>
+#menu ul {
+    list-style: none;
+}
 
-<h3>Trending Topics</h3>
-<ul>
-    <li>#Technology</li>
-    <li>#Coding</li>
-    <li>#Life</li>
-</ul>
+#menu ul li {
+    float: left;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: linear-gradient(45deg, orange, purple);
+    border: 2px solid white;
+    position: relative;
+}
 
-<hr>
+#menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
 
-<h2>User Profile</h2>
+#menu ul li:hover {
+    background: black;
+}
 
-<h3>Profile Header</h3>
-<p>Name: Prajwal Bhusal</p>
-<p>Bio: Learning web development</p>
+#menu ul ul {
+    display: none;
+    position: absolute;
+}
 
-<h3>Friends List</h3>
-<ul>
-    <li>Friend 1</li>
-    <li>Friend 2</li>
-</ul>
+#menu ul li:hover > ul {
+    display: block;
+}
 
-<h3>Posts</h3>
-<p>My first post on profile</p>
+#center {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+}
 
-<button>Edit Profile</button>
+#midle1 {
+    width: 25%;
+    background: linear-gradient(4deg, LightBlue, Violet, Salmon);
+    border: 1px solid black;
+    padding: 10px;
+}
 
-<hr>
+#midle2 {
+    width: 75%;
+    border: 2px solid black;
+    padding: 10px;
+}
 
-<h2>Messages</h2>
-<ul>
-    <li>Chat with Friend 1</li>
-    <li>Chat with Friend 2</li>
-</ul>
-<textarea placeholder="Type message"></textarea>
-<br>
-<button>Send</button>
+#menu1 ul {
+    list-style: none;
+}
 
-<hr>
+#menu1 ul li {
+    background: dimgrey;
+    margin: 10px 0;
+    padding: 10px;
+}
 
-<h2>Notifications</h2>
-<ul>
-    <li>Someone liked your post</li>
-    <li>You have a new friend request</li>
-</ul>
+#menu1 ul li a {
+    color: white;
+    text-decoration: none;
+}
 
-<hr>
+#img1 img {
+    width: 100%;
+    height: auto;
+}
 
-<h2>Footer</h2>
-<a href="#">About Us</a> |
-<a href="#">Privacy Policy</a> |
-<a href="#">Terms</a> |
-<a href="#">Contact</a>
+.product {
+    width: 30%;
+    float: left;
+    margin: 1%;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 10px;
+}
 
-</body>
-</html>
+#footer {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to left top, black, darkgray, black);
+    color: white;
+    text-align: center;
+}
